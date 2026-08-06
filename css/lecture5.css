@@ -1,0 +1,31 @@
+
+/* universal selector */
+/* client server by default margin padding det h hum use over right krte h */
+*{
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    
+}
+/* element selector */
+h1{
+color: red;
+text-align: center;
+text-decoration: underline;
+
+}
+/* class selector */
+.para{
+    color:magenta;
+    padding: 30px;
+    padding-left: 0;
+}
+/* id selector */
+#par{
+    color:red;
+    padding: 10px;
+    padding-left: 40px;
+}
+

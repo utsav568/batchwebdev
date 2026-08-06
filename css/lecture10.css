@@ -1,0 +1,23 @@
+p{
+    color:red;
+    text-align: start;
+    /* text-align-last: center; last element moves from center */
+    text-align: justify;
+   /* direction:rtl; all content start right to left ltr also used */
+   text-indent: 40px;
+   /* text ki phli line kaha se start hoga  text indent batata h */
+   letter-spacing: 1px;;
+   line-height: 20px;
+   word-spacing: 10px;
+   
+
+}
+h3{  
+    text-align:justify;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    /* lowercase */
+
+}

@@ -1,0 +1,38 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+   
+    margin:0px;
+    padding: 4px;
+}
+h1{
+    color:magenta;
+    text-align: center;
+
+}
+/* descendent selector */
+main p{
+    color:blueviolet;
+    padding: 20px;
+    padding-left: 0;
+}
+/* child selector */
+h1>p{
+    color:blue;
+    text-align: start;
+}
+/* adject sibling */
+section + p{
+    color:red;
+    /* section ke bad jo p ane wala h use target kro jo red color me h */
+}
+/* general sibling */
+/* general sibling me section~p eshka mtb ke section ke bad jitne p aayge ushpe style apply kr do */
+[target="_blank"]{
+    color:magenta;
+    text-decoration: none;
+}
+[alt~="pw"]{
+    background-color: black;
+    color: red;
+    
+}

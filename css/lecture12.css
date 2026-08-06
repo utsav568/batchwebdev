@@ -1,0 +1,18 @@
+.para{
+    display: inline;
+    
+}
+span{
+    display: block;
+}
+/* .inline{
+    display:inline-block;
+    width: 100px;
+    height:100px;
+    color: rebeccapurple;
+} */
+ .inline{
+    display:none;
+    /* hiddden vab hum none krege tb text web pe nhi dikhega */
+   
+ }

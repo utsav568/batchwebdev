@@ -1,0 +1,9 @@
+body{
+    background-image: url(https://ventramelidecor.com.br/wp-content/uploads/2024/10/sonho-com-casa-com-jardim-1024x563.jpg);
+    background-repeat: no-repeat;
+    /* hum no-repeat,repeat-y,repeat,repeat-x */
+    background-attachment: fixed;
+    /* fixed,srcoll,local so many property */
+    background-size: cover;
+    /* content */
+}
