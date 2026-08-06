@@ -1,0 +1,12 @@
+.width{
+  min-width:450px;
+    border:2px solid black;
+display: inline-block ;
+}
+.box{
+    max-height: 300px;
+    border:2px solid black;
+    min-width: 200px;
+    overflow:scroll;
+    
+}
