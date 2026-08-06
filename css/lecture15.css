@@ -1,0 +1,25 @@
+p::first-line{
+    color:red;
+
+}
+p::first-letter{
+    color: rgb(41, 181, 2);
+}
+p::after{
+    content: "-utsav singh";
+    color:red;
+   
+
+}
+p::before{
+    content: "-utsav singh ";
+    color:red;
+    
+
+}
+p::selection{
+    color:red;
+    background-color: black;
+}
+
+

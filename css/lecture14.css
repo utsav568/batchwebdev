@@ -1,0 +1,32 @@
+p:hover{
+    background-color: rgb(124, 36, 36);
+    color:magenta;
+    font-size:40px;
+     font-weight: 100px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+input:focus{
+    color: red;
+    background-color: magenta;
+    font-size: large;
+    text-transform: uppercase;
+}
+/* a:hover{
+    color:palegoldenrod;
+
+}
+a:active{
+    color:red
+} */
+/* a:visited{
+    color:rgb(246, 9, 175);
+} */
+a:first-child{
+    color:blue;
+}
+a:nth-child(3){
+    /* odd,even de skte h 3 ke jagah and 2n+1 also give n=0,1,2,3,4---- */
+    color:red;
+}
