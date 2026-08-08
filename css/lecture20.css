@@ -1,0 +1,38 @@
+body{
+    background-color: red;
+
+}
+div{
+    font-size:x-large;
+    text-align: center;
+}
+div::after{
+    content: 'welcom to the demo';
+}
+@media (max-width:400px){
+    body{
+        background-color: rgb(26, 175, 12);
+
+    }
+    div::after{
+        content: 'hello ';
+    }
+}
+@media (min-width: 700px){
+    body{
+        background-color: rgb(220, 186, 12);
+
+    }
+    div::after{
+        content: 'hello ';
+    }
+}
+@media (min-width: 900px){
+    body{
+        background-color: magenta;
+
+    }
+    div::after{
+        content: 'hello world';
+    }
+}

@@ -1,0 +1,24 @@
+div{
+    height:100px;
+    width:100px;
+    background-color: red;
+    position:  relative;
+   animation-name: colorchange;
+   animation-duration: 10s;
+   animation-delay: 3s;
+}
+@keyframes colorchange{
+    from {
+         background-color: rebeccapurple;
+         top: 0px;
+         left: 0px;
+         height: 200px;
+         
+    }
+
+    to {
+        background-color: yellow;
+        top:0px;
+        left:200px;
+    }
+}

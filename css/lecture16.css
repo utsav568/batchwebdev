@@ -1,0 +1,10 @@
+.grad{
+    height: 500px;
+    /* background-image: linear-gradient(to top,red,#1ce211);
+    to left,to right,to top,to button */
+    /* background-image: radial-gradient(circle,red,yellow,blue);
+    circle, */
+    /* background-image: repeating-radial-gradient(red 10%,yellow 20%,blue 30%); */
+    background-image: conic-gradient(red 20deg,yellow 50deg,black)
+
+}

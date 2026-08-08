@@ -1,0 +1,20 @@
+body{
+    background-color: rebeccapurple;
+}
+div{
+    text-align: center;
+    font-size: large;
+}
+div::after{
+    content: 'hello world';
+}
+/* @media(min-width:400px) and (max-width:700px){ */
+@media(400px<=width<=788px){
+    body{
+        background-color: aquamarine;
+
+    }
+    div::after{
+        content: 'utsav';
+    }
+}
